@@ -1,0 +1,108 @@
+.main__spon{
+    width: 100%;
+    background: rgb(27,27,27);
+    padding-top: 3.5em;
+    padding-bottom: 5em;
+}
+.main__spon__cover{
+    width: 95%;
+    max-width: 1330px;
+    margin: 0 auto;
+}
+
+
+.main__spon__heading h1{
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    font-size: 50px;
+    font-family: 'Besley', serif;
+    padding-bottom: 10px;
+    color: white;
+}
+.main__hor{
+    border: 7px solid rgb(247,87,87);
+    margin: 0 auto;
+    height: 20px;
+    width: 357px;
+    background: rgb(247,87,87);
+    margin-bottom: 60px;
+}
+.main__spon__box{
+    display: flex;
+    height: 250px;
+    align-items: center;
+    background: rgb(238, 238, 238);
+    padding-right: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.main__spon__box:hover{
+    box-shadow: rgba(247, 87, 87, 0.56) 0px 22px 70px 4px;
+    cursor: pointer;
+    transition: all 0.7s;
+}
+.main__ver{
+    border-left: 20px solid rgb(247,87,87);
+    height: 250px;
+}
+.main__logo{
+    margin-left: 27px;
+    color: rgb(247,87,87);
+    border-radius: 50%;
+    padding: 30px;
+    border: 4px solid rgb(247,87,87);
+}
+.main__spon__content{
+    margin-left: 27px;
+}
+.main__spon__content h1{
+    font-size: 30px;
+    font-family: 'Besley', serif;
+    font-weight: 600;
+    padding-bottom: 6px;
+    letter-spacing:  1.5px;
+}
+.main__spon__content p{
+    font-size: 18px;
+    font-family: 'Besley', serif;
+    padding-top: 6px;
+    letter-spacing: 0.5px;
+}
+.main__spon__content span{
+    color: rgb(247,87,87);
+}
+@media screen and (max-width: 704px){
+    .main__logo{
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    .main__spon__box{
+        flex-direction: column;
+        height: 420px;
+    }
+    .main__ver{
+        display: none;
+    }
+    .main__spon__content h1{
+        text-align: center;
+    }
+    .main__spon__content p{
+        text-align: justify;
+    }
+}
+@media screen and (max-width: 495px){
+    .main__spon__box{
+        height: 460px;
+    }
+    .main__spon__content h1{
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 428px){
+    .main__spon__content h1{
+        font-size: 23.5px;
+    }
+    .main__spon__box{
+        height: 500px;
+    }
+}

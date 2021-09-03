@@ -11,3 +11,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.page{
+  overflow: hidden;
+}
+.page__sponsor{
+  overflow: hidden;
+  background: rgb(27,27,27);
+}
+.home__page{
+  background: rgb(27,27,27);
+}
+.app{
+  overflow: hidden;
+}

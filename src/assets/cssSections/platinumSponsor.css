@@ -1,0 +1,57 @@
+
+.plat__spon__cover{
+    width: 99%;
+    max-width: 1430px;
+    margin: 0 auto;
+}
+.plat__header h1{
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    font-size: 50px;
+    font-family: 'Besley', serif;
+    padding-bottom: 10px;
+    color: white;
+}
+.plat__hor{
+    border: 7px solid rgb(247,87,87);
+    margin: 0 auto;
+    height: 20px;
+    width: 450px;
+    background: rgb(247,87,87);
+    margin-bottom: 60px;
+}
+.plat__spon__content{
+    align-items: center;
+    width: 370px;
+    height: 370px;
+    padding: 15px;
+    background: rgb(238, 238, 238);
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.plat__spon__content:hover{
+    box-shadow: rgba(247, 87, 87, 0.56) 0px 22px 70px 4px;
+    cursor: pointer;
+    transition: all 0.7s;
+}
+.plat__spon__icon{
+    max-width: 100px;
+    margin: 0 auto;
+    color: rgb(247,87,87);
+    border-radius: 50%;
+    padding-bottom: 7px;
+}
+.plat__spon__content h1{
+    font-size: 33px;
+    font-family: 'Besley', serif;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 7px;
+}
+.plat__spon__content p{
+    font-size: 17px;
+    text-align: center;
+    font-family: 'Besley', serif;
+    letter-spacing: 0.5px;
+}

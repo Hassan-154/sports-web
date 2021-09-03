@@ -1,0 +1,43 @@
+.sponser__header{
+    position: relative;
+}
+.spon__img{
+    width: 100%;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    max-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.582),rgba(0,0,0,0.511)),
+    url('../images/13on-a4gn0tegY_g-unsplash.jpg') no-repeat center / cover;
+}
+.spon__img__text{
+    width: 90%;
+    max-width: 1260px;
+    position: absolute;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.spon__img__text h1{
+    padding-top: 50px;
+    font-size: 41px;
+    color: white;
+    line-height: 52px;
+    letter-spacing: 0.3px;
+    letter-spacing: 0.3px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-seriff;
+    text-align: left;
+    padding-bottom: 20px;
+    font-family: 'Besley', serif;
+    letter-spacing: 1.5px;
+    word-spacing: 1.5px;
+}
+.spon__img__text span{
+    color: rgb(247,87,87);;
+}
+@media screen and (max-width: 1154px){
+    .spon__img__text h1{
+        font-size: 35px;
+    }
+}

@@ -1,0 +1,114 @@
+.about{
+    width: 100%;
+    background: #ffffff;
+}
+.about__header{
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+.about__header__img{
+    padding-top: 350px;
+    padding-bottom: 350px;
+    width: 100%;
+    max-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.582),rgba(0,0,0,0.611)),
+    url('../images/leon-6awfTPLGaCE-unsplash.jpg') no-repeat center / cover;
+}
+.about__content{
+    width: 95%;
+    max-width: 1230px;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.about__content h1{
+    font-size: 95px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: white;
+    letter-spacing: 16px;
+    word-spacing: 1px;
+    padding-bottom: 15px;
+}
+.about__content p{
+    font-size: 23px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    width: 75%;
+    max-width: 1030px;
+    margin: 0 auto;
+    letter-spacing: 1px;
+    line-height: 45px;
+    padding-bottom: 30px;
+}
+.about__content button{
+    border: none;
+    background: none;
+    font-size: 27px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 3px;
+    word-spacing: 3px;
+    font-weight: 400;
+    padding: 10px 40px;
+    border: 2px solid white;
+}
+.about__content button:hover{
+    background: white;
+    color: black;
+    transition: all 1s;
+}
+@media screen and (max-width: 820px){
+    .about__content h1{
+        font-size: 70px;
+    }
+    .about__content p{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 668px){
+    .about__content h1{
+        font-size: 60px;
+    }
+    .about__content p{
+        font-size: 18.5px;
+    }
+}
+@media screen and (max-width: 600px){
+    .about__content p{
+        width: 95%;
+        max-width: 1030px;
+        margin: 0 auto;
+        letter-spacing: 1px;
+        line-height: 45px;
+        padding-bottom: 30px;
+    }
+    .about__content h1{
+        font-size: 50px;
+    }
+}
+@media screen and (max-width: 514px){
+    .about__content h1{
+        font-size: 45px;
+        letter-spacing: 9px;
+    }
+    .about__content p{
+        font-size: 17px;
+        letter-spacing: 2px;
+        line-height: 34px;
+    }
+}
+@media screen and (max-width: 444px){
+    .about__content h1{
+        font-size: 42px;
+        letter-spacing: 9px;
+    }
+    .about__content p{
+        font-size: 15px;
+        letter-spacing: 2px;
+        line-height: 34px;
+    }
+}

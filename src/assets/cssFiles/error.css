@@ -1,0 +1,19 @@
+.error__page{
+    width: 100%;
+    background-color: rgb(34,35,40);
+    text-align: center;
+}
+.error__page h1{
+    color: white;
+    padding-top: 3em;
+}
+.error__page p{
+    color: white;
+    padding-bottom: 1em;
+}
+.error__button{
+    color: white;
+    background-color: rgb(34,35,40);
+    border: 2px sold white;
+    padding-bottom: 2em;
+}
