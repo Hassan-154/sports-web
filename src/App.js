@@ -22,7 +22,7 @@ function App() {
           <Route exact path='/sponsors' component={Sponsors} />
           <Route exact path='/sports' component={Sports} />
           <Route exact path='/' component={Home} />
-          <Route component={Error}/>
+          <Route exact path="" component={Error}/>
         </Switch>
         <Footer/>
       </Router>
