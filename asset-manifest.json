@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/sports-web/static/css/main.29e00910.chunk.css",
+    "main.js": "/sports-web/static/js/main.c24a34c9.chunk.js",
+    "main.js.map": "/sports-web/static/js/main.c24a34c9.chunk.js.map",
+    "runtime-main.js": "/sports-web/static/js/runtime-main.a7827780.js",
+    "runtime-main.js.map": "/sports-web/static/js/runtime-main.a7827780.js.map",
+    "static/css/2.d4115035.chunk.css": "/sports-web/static/css/2.d4115035.chunk.css",
+    "static/js/2.4b8b41ac.chunk.js": "/sports-web/static/js/2.4b8b41ac.chunk.js",
+    "static/js/2.4b8b41ac.chunk.js.map": "/sports-web/static/js/2.4b8b41ac.chunk.js.map",
+    "static/js/3.3b8636b9.chunk.js": "/sports-web/static/js/3.3b8636b9.chunk.js",
+    "static/js/3.3b8636b9.chunk.js.map": "/sports-web/static/js/3.3b8636b9.chunk.js.map",
+    "index.html": "/sports-web/index.html",
+    "static/css/2.d4115035.chunk.css.map": "/sports-web/static/css/2.d4115035.chunk.css.map",
+    "static/css/main.29e00910.chunk.css.map": "/sports-web/static/css/main.29e00910.chunk.css.map",
+    "static/js/2.4b8b41ac.chunk.js.LICENSE.txt": "/sports-web/static/js/2.4b8b41ac.chunk.js.LICENSE.txt",
+    "static/media/sponsors.css": "/sports-web/static/media/13on-a4gn0tegY_g-unsplash.cdffbecd.jpg",
+    "static/media/evenTimer.css": "/sports-web/static/media/anthony-delanoix-QAwciFlS1g4-unsplash.9c6ed683.jpg",
+    "static/media/about.css": "/sports-web/static/media/leon-6awfTPLGaCE-unsplash.a83eef69.jpg",
+    "static/media/logo-horizontal.664e6195.png": "/sports-web/static/media/logo-horizontal.664e6195.png",
+    "static/media/los.css": "/sports-web/static/media/tim-gouw-VvQSzMJ_h0U-unsplash.509a3674.jpg",
+    "static/media/video2.e9f1c74d.mp4": "/sports-web/static/media/video2.e9f1c74d.mp4"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a7827780.js",
+    "static/css/2.d4115035.chunk.css",
+    "static/js/2.4b8b41ac.chunk.js",
+    "static/css/main.29e00910.chunk.css",
+    "static/js/main.c24a34c9.chunk.js"
+  ]
+}
