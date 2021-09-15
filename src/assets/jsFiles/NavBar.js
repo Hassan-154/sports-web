@@ -1,6 +1,6 @@
 import SportsHandballIcon from '@material-ui/icons/SportsHandball';
 import '../cssFiles/NavBar.css';
-import React, { useState } from "react";
+import React,{ useState } from "react";
 import { NavLink } from "react-router-dom";
 
 function NavBar() {
@@ -22,8 +22,7 @@ function NavBar() {
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
               <NavLink
-                exact
-                to="/"
+              exact to="/"
                 activeClassName="active"
                 className="nav-links"
                 onClick={handleClick}
